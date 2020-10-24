@@ -1,0 +1,26 @@
+{
+    "name": "jcailan",
+    "version": "1.0.0",
+    "description": "My GitHub Profile",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jcailan/jcailan.git"
+    },
+    "keywords": [
+        "github",
+        "profile"
+    ],
+    "author": "Jhodel Cailan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jcailan/jcailan/issues"
+    },
+    "homepage": "https://github.com/jcailan/jcailan#readme",
+    "dependencies": {
+        "mustache": "^4.0.1"
+    }
+}
