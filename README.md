@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Jhodel and today is Sunday, 25 October, 08:11 CET.
+My name is Jhodel and today is Sunday, 25 October, 08:28 CET.
 
 #### Latest SAP Community Blog Posts
 
@@ -13,5 +13,7 @@ My name is Jhodel and today is Sunday, 25 October, 08:11 CET.
 | 5 | **[CAP: Consume External Service – Part 3](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1151427)** | Mon Jul 27 2020 | 👍 8 💬 11 💍 19 |
 
 Click [here](sap-community.md) to see more!
+
+<a href="https://twitter.com/CailanJhodel?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CailanJhodel</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [![](https://github.com/jcailan/jcailan/workflows/BUILD/badge.svg)](https://github.com/jcailan/jcailan/actions)
