@@ -7,8 +7,11 @@ const SAP_COMMUNITY = './sap-community.mustache';
 
 const maxItems = 5;
 const sources = {
-    sap: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&size=${maxItems}&page=0`,
-    sapAllBlogs: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&page=0`
+    sap: {
+        blogs: "https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&page=0",
+        topBlogs: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&size=${maxItems}&page=0`
+    }
+
 };
 
 // Return a given object, but with the date property formatted nicely
@@ -55,8 +58,8 @@ let data = {
 };
 
 async function main() {
-    data.sap = await getSapContent(sources.sap);
-    data.sapAllBlogs = await getSapContent(sources.sapAllBlogs);
+    data.topBlogs = await getSapContent(sources.sap.topBlogs);
+    data.blogs = await getSapContent(sources.sap.blogs);
 
     fs.readFile(MAIN_TEMPLATE, (err, template) => {
         if (err) throw err;

@@ -2,12 +2,14 @@
 
 My name is {{name}} and today is {{date}}.
 
-#### SAP Community Blog Posts
+#### Latest SAP Community Blog Posts
 
-The top 5 list of my most recent blog posts in SAP Community:
+| No. | Title | Published On | Engagement |
+| ---:| --- | --- | --- |
+{{#topBlogs}}
+| {{number}} | **[{{title}}]({{link}})** | {{date}} | 👍 {{likes}} 💬 {{comments}} 💍 {{engaged}} |
+{{/topBlogs}}
 
-{{#sap}}
-- [{{title}}]({{link}}) ({{date}})
-{{/sap}}
+Click [here](sap-community.md) to see more!
 
-Click [here](sap-community.md) if you want to see more!
+[![](https://github.com/jcailan/jcailan/workflows/BUILD/badge.svg)](https://github.com/jcailan/jcailan/actions)
