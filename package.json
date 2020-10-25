@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/jcailan/jcailan#readme",
     "dependencies": {
-        "mustache": "^4.0.1"
+        "mustache": "^4.0.1",
+        "then-request": "^6.0.2"
     }
 }

@@ -1,13 +1,40 @@
 const Mustache = require('mustache');
 const fs = require('fs');
 const MUSTACHE_MAIN_DIR = './main.mustache';
+const request = require('then-request');
+
+const maxItems = 5;
+const sources = {
+    sap: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&size=${maxItems}&page=0`
+};
+
+// Return a given object, but with the date property formatted nicely
+const getFormattedDate = item => {
+    item.date = new Date(item.date).toDateString();
+    return item;
+};
+
+const transformData = item => {
+    return {
+        title: item.displayName,
+        link: item.url,
+        date: item.published
+    };
+};
+
+const getSapContent = async url => {
+    const response = await request('GET', url);
+    return JSON.parse(response.getBody())._embedded.contents
+        .map(transformData)
+        .map(getFormattedDate);
+};
 
 /**
-  * DATA is the object that contains all
-  * the data to be provided to Mustache
-  * Notice the "name" and "date" property.
-*/
-let DATA = {
+ * DATA is the object that contains all
+ * the data to be provided to Mustache
+ * Notice the "name" and "date" property.
+ */
+let data = {
     name: 'Jhodel',
     date: new Date().toLocaleDateString('en-GB', {
         weekday: 'long',
@@ -20,17 +47,15 @@ let DATA = {
     }),
 };
 
-/**
-  * A - We open 'main.mustache'
-  * B - We ask Mustache to render our file with the data
-  * C - We create a README.md file with the generated output
-  */
-function generateReadMe() {
-    fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
+async function main() {
+    data.sap = await getSapContent(sources.sap);
+    console.log(data);
+
+    fs.readFile(MUSTACHE_MAIN_DIR, (err, template) => {
         if (err) throw err;
-        const output = Mustache.render(data.toString(), DATA);
+        const output = Mustache.render(template.toString(), data);
         fs.writeFileSync('README.md', output);
     });
 }
 
-generateReadMe();
+main();
