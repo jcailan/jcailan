@@ -17,8 +17,9 @@ const getFormattedDate = item => {
     return item;
 };
 
-const transformData = item => {
+const transformData = (item, index) => {
     return {
+        number: index + 1,
         title: item.displayName,
         link: item.url,
         date: item.published,
