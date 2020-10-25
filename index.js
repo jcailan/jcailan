@@ -1,11 +1,14 @@
 const Mustache = require('mustache');
 const fs = require('fs');
-const MUSTACHE_MAIN_DIR = './main.mustache';
 const request = require('then-request');
+
+const MAIN_TEMPLATE = './main.mustache';
+const SAP_COMMUNITY = './sap-community.mustache';
 
 const maxItems = 5;
 const sources = {
-    sap: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&size=${maxItems}&page=0`
+    sap: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&size=${maxItems}&page=0`,
+    sapAllBlogs: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&page=0`
 };
 
 // Return a given object, but with the date property formatted nicely
@@ -18,7 +21,10 @@ const transformData = item => {
     return {
         title: item.displayName,
         link: item.url,
-        date: item.published
+        date: item.published,
+        likes: item.likes,
+        comments: item.comments,
+        engaged: item.engaged
     };
 };
 
@@ -49,12 +55,18 @@ let data = {
 
 async function main() {
     data.sap = await getSapContent(sources.sap);
-    console.log(data);
+    data.sapAllBlogs = await getSapContent(sources.sapAllBlogs);
 
-    fs.readFile(MUSTACHE_MAIN_DIR, (err, template) => {
+    fs.readFile(MAIN_TEMPLATE, (err, template) => {
         if (err) throw err;
         const output = Mustache.render(template.toString(), data);
         fs.writeFileSync('README.md', output);
+    });
+
+    fs.readFile(SAP_COMMUNITY, (err, template) => {
+        if (err) throw err;
+        const output = Mustache.render(template.toString(), data);
+        fs.writeFileSync('sap-community.md', output);
     });
 }
 
