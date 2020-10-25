@@ -39,27 +39,11 @@ const getSapContent = async url => {
         .map(getFormattedDate);
 };
 
-/**
- * DATA is the object that contains all
- * the data to be provided to Mustache
- * Notice the "name" and "date" property.
- */
-let data = {
-    name: 'Jhodel',
-    date: new Date().toLocaleDateString('en-GB', {
-        weekday: 'long',
-        month: 'long',
-        day: 'numeric',
-        hour: 'numeric',
-        minute: 'numeric',
-        timeZoneName: 'short',
-        timeZone: 'Europe/Stockholm',
-    }),
-};
-
 async function main() {
-    data.topBlogs = await getSapContent(sources.sap.topBlogs);
-    data.blogs = await getSapContent(sources.sap.blogs);
+    const data = {
+        topBlogs: await getSapContent(sources.sap.topBlogs),
+        blogs: await getSapContent(sources.sap.blogs)
+    };
 
     fs.readFile(MAIN_TEMPLATE, (err, template) => {
         if (err) throw err;
