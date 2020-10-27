@@ -6,7 +6,7 @@
 | 2 | **[SAP Fiori Element using CAP Model - Introduction](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1191392)** | Tue Sep 29 2020 | 👍 17 ・ 💬 12 |
 | 3 | **[SAP Fiori Tools: Deploy to ABAP server](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1161581)** | Mon Aug 10 2020 | 👍 14 ・ 💬 26 |
 | 4 | **[SAP Fiori Tools: SAPUI5 Freestyle App](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1156521)** | Mon Aug 03 2020 | 👍 22 ・ 💬 4 |
-| 5 | **[CAP: Consume External Service – Part 3](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1151427)** | Mon Jul 27 2020 | 👍 8 ・ 💬 12 |
+| 5 | **[CAP: Consume External Service – Part 3](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1151427)** | Mon Jul 27 2020 | 👍 8 ・ 💬 13 |
 | 6 | **[CAP: Demystify User Authentication](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1146397)** | Mon Jul 20 2020 | 👍 9 ・ 💬 2 |
 | 7 | **[Tips: VS Code Extensions](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1139568)** | Mon Jul 13 2020 | 👍 14 ・ 💬 9 |
 | 8 | **[CAP: Using HANA DB Sequence](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1137339)** | Sat Jul 04 2020 | 👍 6 ・ 💬 12 |
