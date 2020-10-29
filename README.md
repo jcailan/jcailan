@@ -2,6 +2,8 @@
 
 I'm a developer/tinkerer, object-oriented programming advocate, and passionate about cloud technology and solutions around it.
 
+***
+
 #### Latest SAP Community Blog Posts
 
 | No. | Title | Published On | Engagement |
@@ -13,5 +15,7 @@ I'm a developer/tinkerer, object-oriented programming advocate, and passionate a
 | 5 | **[CAP: Consume External Service – Part 3](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1151427)** | Mon Jul 27 2020 | 👍 8 ・ 💬 13 |
 
 Click [here](sap-community.md) to see more!
+
+***
 
 [![](https://github.com/jcailan/jcailan/workflows/BUILD/badge.svg)](https://github.com/jcailan/jcailan/actions)
