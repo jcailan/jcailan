@@ -12,7 +12,7 @@
 | 8 | **[CAP: Using HANA DB Sequence](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1137339)** | Sat Jul 04 2020 | 👍 6 ・ 💬 12 |
 | 9 | **[Consume External Service using Application Router](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1127272)** | Sat Jun 20 2020 | 👍 3 ・ 💬 2 |
 | 10 | **[DevOps: CAP CI&#x2F;CD using Azure DevOps – Part 2](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1124507)** | Tue Jun 16 2020 | 👍 4 ・ 💬 1 |
-| 11 | **[DevOps: CAP CI&#x2F;CD using Azure DevOps - Part 1](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1118985)** | Mon Jun 08 2020 | 👍 8 ・ 💬 4 |
+| 11 | **[DevOps: CAP CI&#x2F;CD using Azure DevOps - Part 1](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1118985)** | Mon Jun 08 2020 | 👍 8 ・ 💬 5 |
 | 12 | **[CAP: Unit Testing using Mocha and Chai](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1113992)** | Sun May 31 2020 | 👍 7 ・ 💬 2 |
 | 13 | **[CAP: Consume External Service – Part 2](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1111394)** | Wed May 27 2020 | 👍 14 ・ 💬 51 |
 | 14 | **[CAP: Consume External Service - Part 1](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1110570)** | Tue May 26 2020 | 👍 20 ・ 💬 13 |
