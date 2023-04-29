@@ -2,8 +2,8 @@ const Mustache = require('mustache');
 const fs = require('fs');
 const request = require('then-request');
 
-const MAIN_TEMPLATE = './main.mustache';
-const SAP_COMMUNITY = './sap-community.mustache';
+const MAIN_TEMPLATE = './templates/main.mustache';
+const SAP_COMMUNITY = './templates/sap-community.mustache';
 
 const maxItems = 5;
 const sources = {
