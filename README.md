@@ -8,11 +8,11 @@ I'm a developer/tinkerer, object-oriented programming advocate, and passionate a
 
 | No. | Title | Published On | Engagement |
 | ---:| ----- | ------------ | ---------- |
-| 1 | **[SAP Fiori Element using CAP Model – List Report App](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1203828)** | Mon Oct 19 2020 | 👍 11 ・ 💬 2 |
-| 2 | **[SAP Fiori Element using CAP Model - Introduction](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1191392)** | Tue Sep 29 2020 | 👍 19 ・ 💬 12 |
-| 3 | **[SAP Fiori Tools: Deploy to ABAP server](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1161581)** | Mon Aug 10 2020 | 👍 15 ・ 💬 29 |
-| 4 | **[SAP Fiori Tools: SAPUI5 Freestyle App](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1156521)** | Mon Aug 03 2020 | 👍 22 ・ 💬 4 |
-| 5 | **[CAP: Consume External Service – Part 3](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1151427)** | Mon Jul 27 2020 | 👍 8 ・ 💬 13 |
+| 1 | **[Keep the Core Clean with RAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1748744)** | Sat Apr 22 2023 | 👍 6 ・ 💬 7 |
+| 2 | **[SAP Fiori Elements using RAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1735728)** | Mon Apr 03 2023 | 👍 10 ・ 💬 1 |
+| 3 | **[CAP: GraphQL as new protocol](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1723579)** | Sat Mar 18 2023 | 👍 5 ・ 💬 1 |
+| 4 | **[SAP Fiori Element using CAP Model – List Report App](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1203828)** | Mon Oct 19 2020 | 👍 15 ・ 💬 4 |
+| 5 | **[SAP Fiori Elements using CAP Model - Introduction](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1191392)** | Tue Sep 29 2020 | 👍 27 ・ 💬 17 |
 
 Click [here](sap-community.md) to see more!
 

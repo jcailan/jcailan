@@ -7,55 +7,55 @@ const SAP_COMMUNITY = './sap-community.mustache';
 
 const maxItems = 5;
 const sources = {
-    sap: {
-        blogs: "https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&page=0",
-        topBlogs: `https://content.services.sap.com/cs/searches/userProfile?userName=jhodel18&objectTypes=blogpost&sort=published,desc&size=${maxItems}&page=0`
-    }
+	sap: {
+		blogs: "https://content.services.sap.com/cse/search/user?name=jhodel18&types=blogpost&sort=published:desc&size=100&page=0",
+		topBlogs: `https://content.services.sap.com/cse/search/user?name=jhodel18&types=blogpost&sort=published:desc&size=${maxItems}&page=0`
+	}
 
 };
 
 // Return a given object, but with the date property formatted nicely
 const getFormattedDate = item => {
-    item.date = new Date(item.date).toDateString();
-    return item;
+	item.date = new Date(item.date).toDateString();
+	return item;
 };
 
 const transformData = (item, index) => {
-    return {
-        number: index + 1,
-        title: item.displayName,
-        link: item.url,
-        date: item.published,
-        likes: item.likes,
-        comments: item.comments,
-        engaged: item.engaged
-    };
+	return {
+		number: index + 1,
+		title: item.displayName,
+		link: item.url,
+		date: item.published,
+		likes: item.likes,
+		comments: item.comments,
+		engaged: item.engaged
+	};
 };
 
 const getSapContent = async url => {
-    const response = await request('GET', url);
-    return JSON.parse(response.getBody())._embedded.contents
-        .map(transformData)
-        .map(getFormattedDate);
+	const response = await request('GET', url);
+	return JSON.parse(response.getBody())._embedded.contents
+		.map(transformData)
+		.map(getFormattedDate);
 };
 
 async function main() {
-    const data = {
-        topBlogs: await getSapContent(sources.sap.topBlogs),
-        blogs: await getSapContent(sources.sap.blogs)
-    };
+	const data = {
+		topBlogs: await getSapContent(sources.sap.topBlogs),
+		blogs: await getSapContent(sources.sap.blogs)
+	};
 
-    fs.readFile(MAIN_TEMPLATE, (err, template) => {
-        if (err) throw err;
-        const output = Mustache.render(template.toString(), data);
-        fs.writeFileSync('README.md', output);
-    });
+	fs.readFile(MAIN_TEMPLATE, (err, template) => {
+		if (err) throw err;
+		const output = Mustache.render(template.toString(), data);
+		fs.writeFileSync('README.md', output);
+	});
 
-    fs.readFile(SAP_COMMUNITY, (err, template) => {
-        if (err) throw err;
-        const output = Mustache.render(template.toString(), data);
-        fs.writeFileSync('sap-community.md', output);
-    });
+	fs.readFile(SAP_COMMUNITY, (err, template) => {
+		if (err) throw err;
+		const output = Mustache.render(template.toString(), data);
+		fs.writeFileSync('sap-community.md', output);
+	});
 }
 
 main();
