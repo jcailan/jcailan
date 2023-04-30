@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm a developer/tinkerer, object-oriented programming advocate, and passionate about cloud technology and solutions around it.
+I'm a Technical Solution Architect at Rizing, a developer at heart, a software craftsman, an object-oriented programming advocate, and passionate about cloud technology and solutions around it.
 
 ***
 
