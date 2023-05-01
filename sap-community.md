@@ -16,10 +16,10 @@
 | 12 | **[CAP: Using HANA DB Sequence](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1137339)** | Sat Jul 04 2020 | 👍 16 ・ 💬 19 ・ 👁️ 6,903         |
 | 13 | **[Consume External Service using Application Router](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1127272)** | Sat Jun 20 2020 | 👍 3 ・ 💬 9 ・ 👁️ 3,655         |
 | 14 | **[DevOps: CAP CI&#x2F;CD using Azure DevOps – Part 2](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1124507)** | Tue Jun 16 2020 | 👍 4 ・ 💬 2 ・ 👁️ 2,243         |
-| 15 | **[DevOps: CAP CI&#x2F;CD using Azure DevOps - Part 1](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1118985)** | Tue Jun 09 2020 | 👍 10 ・ 💬 14 ・ 👁️ 7,103         |
-| 16 | **[CAP: Unit Testing using Mocha and Chai](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1113992)** | Mon Jun 01 2020 | 👍 9 ・ 💬 6 ・ 👁️ 5,433         |
-| 17 | **[CAP: Consume External Service – Part 2](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1111394)** | Thu May 28 2020 | 👍 30 ・ 💬 72 ・ 👁️ 25,887         |
+| 15 | **[DevOps: CAP CI&#x2F;CD using Azure DevOps - Part 1](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1118985)** | Mon Jun 08 2020 | 👍 10 ・ 💬 14 ・ 👁️ 7,103         |
+| 16 | **[CAP: Unit Testing using Mocha and Chai](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1113992)** | Sun May 31 2020 | 👍 9 ・ 💬 6 ・ 👁️ 5,433         |
+| 17 | **[CAP: Consume External Service – Part 2](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1111394)** | Wed May 27 2020 | 👍 30 ・ 💬 72 ・ 👁️ 25,888         |
 | 18 | **[CAP: Consume External Service - Part 1](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1110570)** | Tue May 26 2020 | 👍 49 ・ 💬 46 ・ 👁️ 26,439         |
 | 19 | **[Advanced debugging of MTA-based Apps](https:&#x2F;&#x2F;blogs.sap.com&#x2F;2020&#x2F;05&#x2F;07&#x2F;advanced-debugging-of-mta-based-apps&#x2F;)** | Thu May 07 2020 | 👍 6 ・ 💬 0 ・ 👁️ 1,393         |
 | 20 | **[Testing MTA-based app runtime in VS Code](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1092663)** | Sun May 03 2020 | 👍 8 ・ 💬 6 ・ 👁️ 1,829         |
-| 21 | **[How to implement Function Import in HANA XS](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;678542)** | Tue Jun 12 2018 | 👍 2 ・ 💬 5 ・ 👁️ 3,033         |
+| 21 | **[How to implement Function Import in HANA XS](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;678542)** | Mon Jun 11 2018 | 👍 2 ・ 💬 5 ・ 👁️ 3,033         |
