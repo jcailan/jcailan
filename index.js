@@ -1,6 +1,7 @@
 const Mustache = require('mustache');
 const fs = require('fs');
 const request = require('then-request');
+const { parse } = require('node-html-parser');
 
 const MAIN_TEMPLATE = './templates/main.mustache';
 const SAP_COMMUNITY = './templates/sap-community.mustache';
@@ -28,15 +29,26 @@ const transformData = (item, index) => {
 		date: item.published,
 		likes: item.likes,
 		comments: item.comments,
+		prettyUrl: item.prettyUrl,
 		engaged: item.engaged
 	};
 };
 
 const getSapContent = async url => {
 	const response = await request('GET', url);
-	return JSON.parse(response.getBody())._embedded.contents
+	const blogs = JSON.parse(response.getBody())._embedded.contents
 		.map(transformData)
 		.map(getFormattedDate);
+
+	for (let blog of blogs) {
+		const response = await request('GET', blog.prettyUrl);
+		const root = parse(Buffer.from(response.body).toString());
+		const viewsStatus = root.querySelector(".ds-social-stats >span:last-child");
+		const views = viewsStatus ? viewsStatus.lastChild : 0;
+		blog.views = views;
+	}
+
+	return blogs;
 };
 
 async function main() {

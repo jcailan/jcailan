@@ -22,6 +22,7 @@
     "homepage": "https://github.com/jcailan/jcailan#readme",
     "dependencies": {
         "mustache": "^4.0.1",
+        "node-html-parser": "^6.1.5",
         "then-request": "^6.0.2"
     }
 }
