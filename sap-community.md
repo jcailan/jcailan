@@ -2,8 +2,8 @@
 
 | No. | Title | Published On | Engagement |
 | ---:| ----- | ------------ | ---------- |
-| 1 | **[Keep the Core Clean with CAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1754338)** | Sun Apr 30 2023 | 👍 1 ・ 💬 0 |
-| 2 | **[Keep the Core Clean with RAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1748744)** | Sat Apr 22 2023 | 👍 6 ・ 💬 7 |
+| 1 | **[Keep the Core Clean with CAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1754338)** | Sun Apr 30 2023 | 👍 2 ・ 💬 0 |
+| 2 | **[Keep the Core Clean with RAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1748744)** | Sat Apr 22 2023 | 👍 7 ・ 💬 7 |
 | 3 | **[SAP Fiori Elements using RAP Model](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1735728)** | Mon Apr 03 2023 | 👍 10 ・ 💬 1 |
 | 4 | **[CAP: GraphQL as new protocol](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1723579)** | Sat Mar 18 2023 | 👍 5 ・ 💬 1 |
 | 5 | **[SAP Fiori Element using CAP Model – List Report App](https:&#x2F;&#x2F;blogs.sap.com&#x2F;?p&#x3D;1203828)** | Mon Oct 19 2020 | 👍 15 ・ 💬 4 |
